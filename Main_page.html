@@ -1369,14 +1369,14 @@ body.dark-theme .featured{
     </div>
            <div class="profile" aria-haspopup="menu" aria-expanded="false" aria-label="User Profile menu">
       <button class="profile-btn" id="profileBtn" aria-controls="profileMenu" aria-expanded="false" aria-haspopup="true" tabindex="0">
-        <img src="profile1.jpeg" alt="User avatar" />
+        <img src="images/profile1.jpeg" alt="User avatar" />
       </button>
       
       <nav class="profile-dropdown" role="menu" id="profileMenu" aria-label="Profile options" tabindex="-1">
         <ul>
           <li role="menuitem" tabindex="0">Account</li>
           <li role="menuitem" tabindex="0">Settings</li>
-           <a href="sample.html" id="delayedlink"><li role="menuitem" tabindex="0" id="logoutBtn">Logout</li></a>
+           <a href="about.html" id="delayedlink"><li role="menuitem" tabindex="0" id="logoutBtn">Logout</li></a>
         </ul>
       </nav>
     </div>
@@ -1395,7 +1395,7 @@ body.dark-theme .featured{
     </div>
     
     <button class="profile-btn" id="profileBtnMobile" aria-controls="profileMenuMobile" aria-haspopup="true" aria-expanded="false" tabindex="0" style="margin-left:12px;">
-      <img src="wed.jpeg" alt="User avatar" />
+      <img src="images/wed.jpeg" alt="User avatar" />
     </button>
     
   </div>
@@ -1780,74 +1780,74 @@ document.addEventListener('DOMContentLoaded', initBanner);
     // Dummy data with trailer URLs added (sample open videos for demo)
     const dummyData = {
       featured: [
-         { id: 'f1', title: 'Lust Stories 2', trailer: 'luststories.mp4', image: 'luststories.jpeg', rating: 7.3, description: 'Robbery thriller.', type: 'tv' },
-        { id: 'f2', title: 'Stranger Things', trailer: 'stranger.mp4', image: 'https://d1rgjmn2wmqeif.cloudfront.net/r/b/91943.jpg', rating: 8.6, description: 'Mystery and supernatural in Hawkins.', type: 'tv' },
-         { id: 'f3', title: 'Ratsasan', trailer: 'ratsasan.mp4', image: 'ratsasan.jpeg', rating: 8.3, description: 'Zombie apocalypse heist.', type: 'movie' },
-          { id: 'f4', title: 'K.G.F  2', trailer: 'Kgf 2.mp4', image: 'k3.jpeg', rating: 7.3, description: 'Robbery thriller.', type: 'tv' },
-           { id: 'f5', title: 'Wednesday', trailer: 'wednesday.mkv', image: 'wed1.jpeg', rating: 8, description: 'Monster hunter Geralt of Rivia.', type: 'tv' },
+         { id: 'f1', title: 'Lust Stories 2', trailer: 'luststories.mp4', image: 'images/luststories.jpeg', rating: 7.3, description: 'Robbery thriller.', type: 'tv' },
+        { id: 'f2', title: 'Stranger Things', trailer: 'stranger.mp4', image: 'images/https://d1rgjmn2wmqeif.cloudfront.net/r/b/91943.jpg', rating: 8.6, description: 'Mystery and supernatural in Hawkins.', type: 'tv' },
+         { id: 'f3', title: 'Ratsasan', trailer: 'ratsasan.mp4', image: 'images/ratsasan.jpeg', rating: 8.3, description: 'Zombie apocalypse heist.', type: 'movie' },
+          { id: 'f4', title: 'K.G.F  2', trailer: 'Kgf 2.mp4', image: 'images/k3.jpeg', rating: 7.3, description: 'Robbery thriller.', type: 'tv' },
+           { id: 'f5', title: 'Wednesday', trailer: 'wednesday.mkv', image: 'images/wed1.jpeg', rating: 8, description: 'Monster hunter Geralt of Rivia.', type: 'tv' },
         { id: 'f6', title: 'Bridgerton', trailer: 'bridge.mp4', image: 'https://m.media-amazon.com/images/I/81nnLGxKFkL._UF1000,1000_QL80_.jpg', rating: 7.4, description: 'A scandalous tale of London.', type: 'tv' },
         { id: 'f7', title: 'Extraction', trailer: 'https://interactive-examples.mdn.mozilla.net/media/cc0-videos/earth.webm', image: 'extraction.jpeg', rating: 7.1, description: 'Rescue mission and thrills.', type: 'movie' },
         { id: 'f8', title: 'Bird Box', trailer: 'https://interactive-examples.mdn.mozilla.net/media/cc0-videos/river.webm', image: 'birdbox.jpeg', rating: 6.6, description: 'Survival in a mysterious world.', type: 'movie' },
       ],
             series: [
-        { id: 's1', title: 'Breaking Bad', trailer: 'breakingbad.mp4', image: 'bad.jpeg', rating: 9.5, description: 'Money laundering in Missouri.', type: 'tv' },
-        { id: 's2', title: 'Dark', trailer: 'dark.mp4', image: 'dark1.jpeg', rating: 8.7, description: 'Dystopian technology anthology.', type: 'tv' },
+        { id: 's1', title: 'Breaking Bad', trailer: 'breakingbad.mp4', image: 'images/bad.jpeg', rating: 9.5, description: 'Money laundering in Missouri.', type: 'tv' },
+        { id: 's2', title: 'Dark', trailer: 'dark.mp4', image: 'images/dark1.jpeg', rating: 8.7, description: 'Dystopian technology anthology.', type: 'tv' },
         { id: 's3', title: 'Peaky Blinders', trailer: 'https://interactive-examples.mdn.mozilla.net/media/cc0-videos/tiger.webm', image: 'https://our.today/wp-content/uploads/2024/06/MV5BZjYzZDgzMmYtYjY5Zi00YTk1LThhMDYtNjFlNzM4MTZhYzgyXkEyXkFqcGdeQXVyMTE5NDQ1MzQ3._V1_.jpg', rating: 8.7, description: 'AI theme park.', type: 'tv' },
         { id: 's4', title: 'Maze Runners', trailer: 'maze.mp4', image: 'https://rukminim3.flixcart.com/image/850/1000/xif0q/poster/x/w/1/small-spos15104-poster-the-maze-runner-sl-15117-wall-poster-original-imagkb9c6xcyhcf5.jpeg?q=20&crop=false', rating: 7.7, description: 'British monarchy history.', type: 'tv' },
-        { id: 's5', title: 'Wednesday', trailer: 'wednesday.mkv', image: 'wed1.jpeg', rating: 8, description: 'Chemistry teacher to drug kingpin.', type: 'tv' },
-         { id: 's6', title: 'The Witcher', trailer: 'https://interactive-examples.mdn.mozilla.net/media/cc0-videos/river.webm', image: 'witcher.jpeg', rating: 7.9, description: 'Survival in a mysterious world.', type: 'movie' }
+        { id: 's5', title: 'Wednesday', trailer: 'wednesday.mkv', image: 'images/wed1.jpeg', rating: 8, description: 'Chemistry teacher to drug kingpin.', type: 'tv' },
+         { id: 's6', title: 'The Witcher', trailer: 'https://interactive-examples.mdn.mozilla.net/media/cc0-videos/river.webm', image: 'images/witcher.jpeg', rating: 7.9, description: 'Survival in a mysterious world.', type: 'movie' }
       ],
            songs: [
-        { id: 'sn1', title: 'Manike Mage Hithe', trailer: 'man.mp4', image: 'manike.jpg', rating: 9.5, description: 'Money laundering in Missouri.', type: 'tv' },
-         { id: 'sn2', title: 'Param Sundari', trailer: 'para.mp4', image: 'param.jpeg', rating: 8, description: 'Chemistry teacher to drug kingpin.', type: 'tv' },
-        { id: 'sn3', title: 'Dil Chori', trailer: 'dil.mp4', image: 'dilchori.jpeg', rating: 8.7, description: 'Dystopian technology anthology.', type: 'tv' },
-        { id: 'sn4', title: 'Kusu', trailer: 'kusu.mp4', image: 'kusu.jpeg', rating: 8.7, description: 'AI theme park.', type: 'tv' },
-        { id: 'sn5', title: 'Chikni Chameli', trailer: 'chik.mp4', image: 'chikni.jpeg', rating: 7.7, description: 'British monarchy history.', type: 'tv' },
+        { id: 'sn1', title: 'Manike Mage Hithe', trailer: 'man.mp4', image: 'images/manike.jpg', rating: 9.5, description: 'Money laundering in Missouri.', type: 'tv' },
+         { id: 'sn2', title: 'Param Sundari', trailer: 'para.mp4', image: 'images/param.jpeg', rating: 8, description: 'Chemistry teacher to drug kingpin.', type: 'tv' },
+        { id: 'sn3', title: 'Dil Chori', trailer: 'dil.mp4', image: 'images/dilchori.jpeg', rating: 8.7, description: 'Dystopian technology anthology.', type: 'tv' },
+        { id: 'sn4', title: 'Kusu', trailer: 'kusu.mp4', image: 'images/kusu.jpeg', rating: 8.7, description: 'AI theme park.', type: 'tv' },
+        { id: 'sn5', title: 'Chikni Chameli', trailer: 'chik.mp4', image: 'images/chikni.jpeg', rating: 7.7, description: 'British monarchy history.', type: 'tv' },
       ],
       'tv-shows': [
-         { id: 'tv1', title: 'Game Of Thrones', trailer: 'https://interactive-examples.mdn.mozilla.net/media/cc0-videos/river.webm', image: 'game.jpeg', rating: 9.2, description: 'Chemistry teacher to drug kingpin.', type: 'tv' },
-        { id: 'tv2', title: 'Black Mirror', trailer: 'https://interactive-examples.mdn.mozilla.net/media/cc0-videos/bee.webm', image: 'mirror.jpg', rating: 8.7, description: 'Dystopian technology anthology.', type: 'tv' },
-        { id: 'tv3', title: 'Ozark', trailer: 'https://interactive-examples.mdn.mozilla.net/media/cc0-videos/tiger.webm', image: 'ozark.jpeg', rating: 8.4, description: 'Money laundering in Missouri.', type: 'tv' },
-        { id: 'tv4', title: 'Never Have I Ever', trailer: 'Never.mp4', image: 'never.jpeg', rating: 7.7, description: 'AI theme park.', type: 'tv' },
-        { id: 'tv5', title: 'The Crown', trailer: 'https://interactive-examples.mdn.mozilla.net/media/cc0-videos/tiger.webm', image: 'crown.jpeg', rating: 8.6, description: 'British monarchy history.', type: 'tv' },
-        { id: 'tv6', title: 'Westworld', trailer: 'https://interactive-examples.mdn.mozilla.net/media/cc0-videos/tiger.webm', image: 'west.jpeg', rating: 8.4, description: 'AI theme park.', type: 'tv' }
+         { id: 'tv1', title: 'Game Of Thrones', trailer: 'https://interactive-examples.mdn.mozilla.net/media/cc0-videos/river.webm', image: 'images/game.jpeg', rating: 9.2, description: 'Chemistry teacher to drug kingpin.', type: 'tv' },
+        { id: 'tv2', title: 'Black Mirror', trailer: 'https://interactive-examples.mdn.mozilla.net/media/cc0-videos/bee.webm', image: 'images/mirror.jpg', rating: 8.7, description: 'Dystopian technology anthology.', type: 'tv' },
+        { id: 'tv3', title: 'Ozark', trailer: 'https://interactive-examples.mdn.mozilla.net/media/cc0-videos/tiger.webm', image: 'images/ozark.jpeg', rating: 8.4, description: 'Money laundering in Missouri.', type: 'tv' },
+        { id: 'tv4', title: 'Never Have I Ever', trailer: 'Never.mp4', image: 'images/never.jpeg', rating: 7.7, description: 'AI theme park.', type: 'tv' },
+        { id: 'tv5', title: 'The Crown', trailer: 'https://interactive-examples.mdn.mozilla.net/media/cc0-videos/tiger.webm', image: 'images/crown.jpeg', rating: 8.6, description: 'British monarchy history.', type: 'tv' },
+        { id: 'tv6', title: 'Westworld', trailer: 'https://interactive-examples.mdn.mozilla.net/media/cc0-videos/tiger.webm', image: 'images/west.jpeg', rating: 8.4, description: 'AI theme park.', type: 'tv' }
       ],
       movies: [
-         { id: 'm1', title: 'Fifty Shades of Grey', trailer: 'fifty.mp4', image: 'fifty.jpeg', rating: 7.9, description: 'Romantic.', type: 'movie' },
-        { id: 'm2', title: 'Inception', trailer: 'https://interactive-examples.mdn.mozilla.net/media/cc0-videos/river.webm', image: 'incep.jpeg', rating: 8.8, description: 'Dream heist thriller.', type: 'movie' },
-        { id: 'm3', title: 'John Wick', trailer: 'https://interactive-examples.mdn.mozilla.net/media/cc0-videos/earth.webm', image: 'johnwick.jpeg', rating: 7.4, description: 'Retired hitman revenge.', type: 'movie' },
-        { id: 'm4', title: 'Interstellar', trailer: 'Interstellar.mp4', image: 'interstellar.jpeg', rating: 7.5, description: 'Space exploration epic.', type: 'movie' },
-        { id: 'm5', title: 'The Dark Knight', trailer: 'Dark_knight.mp4', image: 'darkknight.jpeg', rating: 9.0, description: 'Batman faces Joker.', type: 'movie' },
-        { id: 'm6', title: 'Avengers: Endgame', trailer: 'https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.webm', image: 'avengers.jpeg', rating: 8.4, description: 'Superhero ensemble finale.', type: 'movie' }
+         { id: 'm1', title: 'Fifty Shades of Grey', trailer: 'fifty.mp4', image: 'images/fifty.jpeg', rating: 7.9, description: 'Romantic.', type: 'movie' },
+        { id: 'm2', title: 'Inception', trailer: 'https://interactive-examples.mdn.mozilla.net/media/cc0-videos/river.webm', image: 'images/incep.jpeg', rating: 8.8, description: 'Dream heist thriller.', type: 'movie' },
+        { id: 'm3', title: 'John Wick', trailer: 'https://interactive-examples.mdn.mozilla.net/media/cc0-videos/earth.webm', image: 'images/johnwick.jpeg', rating: 7.4, description: 'Retired hitman revenge.', type: 'movie' },
+        { id: 'm4', title: 'Interstellar', trailer: 'Interstellar.mp4', image: 'images/interstellar.jpeg', rating: 7.5, description: 'Space exploration epic.', type: 'movie' },
+        { id: 'm5', title: 'The Dark Knight', trailer: 'Dark_knight.mp4', image: 'images/darkknight.jpeg', rating: 9.0, description: 'Batman faces Joker.', type: 'movie' },
+        { id: 'm6', title: 'Avengers: Endgame', trailer: 'https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.webm', image: 'images/avengers.jpeg', rating: 8.4, description: 'Superhero ensemble finale.', type: 'movie' }
       ],
       'new-popular': [
-        { id: 'np1', title: 'Squid Game', trailer: 'squid.mp4', image: 'squidgame.jpeg', rating: 8.0, description: 'Survival game drama.', type: 'tv' },
-        { id: 'np2', title: 'Money Heist', trailer: 'https://interactive-examples.mdn.mozilla.net/media/cc0-videos/earth.webm', image: 'money.jpeg', rating: 8.2, description: 'Robbery thriller.', type: 'tv' },
-        { id: 'np3', title: 'Army of the Dead', trailer: 'https://interactive-examples.mdn.mozilla.net/media/cc0-videos/tiger.webm', image: 'army.jpeg', rating: 6.8, description: 'Zombie apocalypse heist.', type: 'movie' },
-        { id: 'np4', title: 'Red Notice', trailer: 'https://interactive-examples.mdn.mozilla.net/media/cc0-videos/bee.webm', image: 'red1.jpeg', rating: 6.4, description: 'Action-comedy thriller.', type: 'movie' },
-        { id: 'np5', title: 'The Queen’s Gambit', trailer: 'https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.webm', image: 'queeensgambit.jpeg', rating: 8.6, description: 'Chess prodigy drama.', type: 'tv' }
+        { id: 'np1', title: 'Squid Game', trailer: 'squid.mp4', image: 'images/squidgame.jpeg', rating: 8.0, description: 'Survival game drama.', type: 'tv' },
+        { id: 'np2', title: 'Money Heist', trailer: 'https://interactive-examples.mdn.mozilla.net/media/cc0-videos/earth.webm', image: 'images/money.jpeg', rating: 8.2, description: 'Robbery thriller.', type: 'tv' },
+        { id: 'np3', title: 'Army of the Dead', trailer: 'https://interactive-examples.mdn.mozilla.net/media/cc0-videos/tiger.webm', image: 'images/army.jpeg', rating: 6.8, description: 'Zombie apocalypse heist.', type: 'movie' },
+        { id: 'np4', title: 'Red Notice', trailer: 'https://interactive-examples.mdn.mozilla.net/media/cc0-videos/bee.webm', image: 'images/red1.jpeg', rating: 6.4, description: 'Action-comedy thriller.', type: 'movie' },
+        { id: 'np5', title: 'The Queen’s Gambit', trailer: 'https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.webm', image: 'images/queeensgambit.jpeg', rating: 8.6, description: 'Chess prodigy drama.', type: 'tv' }
       ],
         'love': [
-        { id: 'l1', title: 'Titanic', trailer: 'titanic.mp4', image: 'titanic.jpeg', rating: 8.8, description: 'Survival game drama.', type: 'tv' },
-         { id: 'l2', title: 'My Fault', trailer: 'https://interactive-examples.mdn.mozilla.net/media/cc0-videos/river.webm', image: 'myfault.jpeg', rating: 8.0, description: 'Survival game drama.', type: 'tv' },
-        { id: 'l3', title: 'Passengers', trailer: 'Passengers.mp4', image: 'passengers1.jpeg', rating: 7.7, description: 'Robbery thriller.', type: 'tv' },
-        { id: 'l4', title: 'Love At First Sight', trailer: 'https://interactive-examples.mdn.mozilla.net/media/cc0-videos/tiger.webm', image: 'firstsight.jpeg', rating: 5.9, description: 'Zombie apocalypse heist.', type: 'movie' },
-        { id: 'l5', title: 'The NoteBook', trailer: 'https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.webm', image: 'notebook.jpeg', rating: 7.8, description: 'Chess prodigy drama.', type: 'tv' },
-        { id: 'l6', title: 'It Ends With Us', trailer: 'https://interactive-examples.mdn.mozilla.net/media/cc0-videos/bee.webm', image: 'itendswithus.jpeg', rating: 6.4, description: 'Action-comedy thriller.', type: 'movie' }
+        { id: 'l1', title: 'Titanic', trailer: 'titanic.mp4', image: 'images/titanic.jpeg', rating: 8.8, description: 'Survival game drama.', type: 'tv' },
+         { id: 'l2', title: 'My Fault', trailer: 'https://interactive-examples.mdn.mozilla.net/media/cc0-videos/river.webm', image: 'images/myfault.jpeg', rating: 8.0, description: 'Survival game drama.', type: 'tv' },
+        { id: 'l3', title: 'Passengers', trailer: 'Passengers.mp4', image: 'images/passengers1.jpeg', rating: 7.7, description: 'Robbery thriller.', type: 'tv' },
+        { id: 'l4', title: 'Love At First Sight', trailer: 'https://interactive-examples.mdn.mozilla.net/media/cc0-videos/tiger.webm', image: 'images/firstsight.jpeg', rating: 5.9, description: 'Zombie apocalypse heist.', type: 'movie' },
+        { id: 'l5', title: 'The NoteBook', trailer: 'https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.webm', image: 'images/notebook.jpeg', rating: 7.8, description: 'Chess prodigy drama.', type: 'tv' },
+        { id: 'l6', title: 'It Ends With Us', trailer: 'https://interactive-examples.mdn.mozilla.net/media/cc0-videos/bee.webm', image: 'images/itendswithus.jpeg', rating: 6.4, description: 'Action-comedy thriller.', type: 'movie' }
       ],
         'romantic': [
-        { id: 'r1', title: 'Fifty Shades Of Grey', trailer: 'fifty.mp4', image: 'fifty.jpeg', rating: 7.9, description: 'Survival game drama.', type: 'tv' },
-        { id: 'r2', title: 'Lust Stories', trailer: 'luststories.mp4', image: 'luststories.jpeg', rating: 7.3, description: 'Robbery thriller.', type: 'tv' },
-        { id: 'r3', title: 'Lucky One', trailer: 'lucky.mp4', image: 'luckyone.jpeg', rating: 6.4, description: 'Zombie apocalypse heist.', type: 'movie' },
-        { id: 'r4', title: '365 Days', trailer: '365 Days.mp4', image: '365.jpeg', rating: 5.5, description: 'Action-comedy thriller.', type: 'movie' },
-        { id: 'r5', title: 'No Hard Feelings', trailer: 'no hard.mp4', image: 'nohard.jpeg', rating: 8.0, description: 'Chess prodigy drama.', type: 'tv' }
+        { id: 'r1', title: 'Fifty Shades Of Grey', trailer: 'fifty.mp4', image: 'images/fifty.jpeg', rating: 7.9, description: 'Survival game drama.', type: 'tv' },
+        { id: 'r2', title: 'Lust Stories', trailer: 'luststories.mp4', image: 'images/luststories.jpeg', rating: 7.3, description: 'Robbery thriller.', type: 'tv' },
+        { id: 'r3', title: 'Lucky One', trailer: 'lucky.mp4', image: 'images/luckyone.jpeg', rating: 6.4, description: 'Zombie apocalypse heist.', type: 'movie' },
+        { id: 'r4', title: '365 Days', trailer: '365 Days.mp4', image: 'images/365.jpeg', rating: 5.5, description: 'Action-comedy thriller.', type: 'movie' },
+        { id: 'r5', title: 'No Hard Feelings', trailer: 'no hard.mp4', image: 'images/nohard.jpeg', rating: 8.0, description: 'Chess prodigy drama.', type: 'tv' }
       ],
         'horror': [
-        { id: 'h1', title: 'Ring', trailer: 'https://interactive-examples.mdn.mozilla.net/media/cc0-videos/river.webm', image: 'ring1.jpeg', rating: 7.1, description: 'Survival game drama.', type: 'tv' },
-        { id: 'h2', title: 'Mirror', trailer: 'https://interactive-examples.mdn.mozilla.net/media/cc0-videos/earth.webm', image: 'mirror.jpeg', rating: 7.9, description: 'Robbery thriller.', type: 'tv' },
-        { id: 'h3', title: 'The Excorsist', trailer: 'https://interactive-examples.mdn.mozilla.net/media/cc0-videos/tiger.webm', image: 'exorcist.jpeg', rating: 8.9, description: 'Zombie apocalypse heist.', type: 'movie' },
-        { id: 'h4', title: 'The Conjuring', trailer: 'https://interactive-examples.mdn.mozilla.net/media/cc0-videos/bee.webm', image: 'conjuring.jpeg', rating: 7.5, description: 'Action-comedy thriller.', type: 'movie' },
-        { id: 'h5', title: 'It', trailer: 'https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.webm', image: 'it.jpeg', rating: 8.1, description: 'Chess prodigy drama.', type: 'tv' }
+        { id: 'h1', title: 'Ring', trailer: 'https://interactive-examples.mdn.mozilla.net/media/cc0-videos/river.webm', image: 'images/ring1.jpeg', rating: 7.1, description: 'Survival game drama.', type: 'tv' },
+        { id: 'h2', title: 'Mirror', trailer: 'https://interactive-examples.mdn.mozilla.net/media/cc0-videos/earth.webm', image: 'images/mirror.jpeg', rating: 7.9, description: 'Robbery thriller.', type: 'tv' },
+        { id: 'h3', title: 'The Excorsist', trailer: 'https://interactive-examples.mdn.mozilla.net/media/cc0-videos/tiger.webm', image: 'images/exorcist.jpeg', rating: 8.9, description: 'Zombie apocalypse heist.', type: 'movie' },
+        { id: 'h4', title: 'The Conjuring', trailer: 'https://interactive-examples.mdn.mozilla.net/media/cc0-videos/bee.webm', image: 'images/conjuring.jpeg', rating: 7.5, description: 'Action-comedy thriller.', type: 'movie' },
+        { id: 'h5', title: 'It', trailer: 'https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.webm', image: 'images/it.jpeg', rating: 8.1, description: 'Chess prodigy drama.', type: 'tv' }
       ],
         'scifi': [
         { id: 'sf1', title: 'Interstellar', trailer: 'Interstellar.mp4', image: 'interstellar.jpeg', rating: 9.2, description: 'Survival game drama.', type: 'tv' },
@@ -1857,32 +1857,32 @@ document.addEventListener('DOMContentLoaded', initBanner);
         { id: 'sf5', title: 'The Martian', trailer: 'https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.webm', image: 'martian.jpeg', rating: 8.0, description: 'Chess prodigy drama.', type: 'tv' }
       ],
        'mysterious': [
-        { id: 'm1', title: 'Zodiac', trailer: 'https://interactive-examples.mdn.mozilla.net/media/cc0-videos/river.webm', image: 'zodiac.jpeg', rating: 8.0, description: 'Survival game drama.', type: 'tv' },
-        { id: 'm2', title: 'Sherlock Holmes', trailer: 'https://interactive-examples.mdn.mozilla.net/media/cc0-videos/earth.webm', image: 'sherlock.jpeg', rating: 7.5, description: 'Robbery thriller.', type: 'tv' },
-        { id: 'm3', title: 'Shutter Island', trailer: 'https://interactive-examples.mdn.mozilla.net/media/cc0-videos/tiger.webm', image: 'shutter.jpeg', rating: 5.9, description: 'Zombie apocalypse heist.', type: 'movie' },
-        { id: 'm4', title: 'Shawshank Redemption', trailer: 'https://interactive-examples.mdn.mozilla.net/media/cc0-videos/bee.webm', image: 'redemption.jpeg', rating: 6.4, description: 'Action-comedy thriller.', type: 'movie' },
-        { id: 'm5', title: 'Heriditary', trailer: 'https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.webm', image: 'heriditary.jpeg', rating: 8.6, description: 'Chess prodigy drama.', type: 'tv' }
+        { id: 'm1', title: 'Zodiac', trailer: 'https://interactive-examples.mdn.mozilla.net/media/cc0-videos/river.webm', image: 'images/zodiac.jpeg', rating: 8.0, description: 'Survival game drama.', type: 'tv' },
+        { id: 'm2', title: 'Sherlock Holmes', trailer: 'https://interactive-examples.mdn.mozilla.net/media/cc0-videos/earth.webm', image: 'images/sherlock.jpeg', rating: 7.5, description: 'Robbery thriller.', type: 'tv' },
+        { id: 'm3', title: 'Shutter Island', trailer: 'https://interactive-examples.mdn.mozilla.net/media/cc0-videos/tiger.webm', image: 'images/shutter.jpeg', rating: 5.9, description: 'Zombie apocalypse heist.', type: 'movie' },
+        { id: 'm4', title: 'Shawshank Redemption', trailer: 'https://interactive-examples.mdn.mozilla.net/media/cc0-videos/bee.webm', image: 'images/redemption.jpeg', rating: 6.4, description: 'Action-comedy thriller.', type: 'movie' },
+        { id: 'm5', title: 'Heriditary', trailer: 'https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.webm', image: 'images/heriditary.jpeg', rating: 8.6, description: 'Chess prodigy drama.', type: 'tv' }
       ],
        'crime': [
-        { id: 'c1', title: 'Joker', trailer: 'Joker.mp4', image: 'joker.jpeg', rating: 7.7, description: 'Survival game drama.', type: 'tv' },
-        { id: 'c2', title: 'Drishyam', trailer: 'https://interactive-examples.mdn.mozilla.net/media/cc0-videos/earth.webm', image: 'drishyam.jpeg', rating: 8.2, description: 'Robbery thriller.', type: 'tv' },
-        { id: 'c3', title: 'Ratsasan', trailer: 'ratsasan.mp4', image: 'ratsasan.jpeg', rating: 8.3, description: 'Zombie apocalypse heist.', type: 'movie' },
-        { id: 'c4', title: 'John Wick', trailer: 'https://interactive-examples.mdn.mozilla.net/media/cc0-videos/bee.webm', image: 'johnwick.jpeg', rating: 7.5, description: 'Action-comedy thriller.', type: 'movie' },
-        { id: 'c5', title: 'Iratta', trailer: 'https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.webm', image: 'iratta.jpeg', rating: 87.7, description: 'Chess prodigy drama.', type: 'tv' }
+        { id: 'c1', title: 'Joker', trailer: 'Joker.mp4', image: 'images/joker.jpeg', rating: 7.7, description: 'Survival game drama.', type: 'tv' },
+        { id: 'c2', title: 'Drishyam', trailer: 'https://interactive-examples.mdn.mozilla.net/media/cc0-videos/earth.webm', image: 'images/drishyam.jpeg', rating: 8.2, description: 'Robbery thriller.', type: 'tv' },
+        { id: 'c3', title: 'Ratsasan', trailer: 'ratsasan.mp4', image: 'images/ratsasan.jpeg', rating: 8.3, description: 'Zombie apocalypse heist.', type: 'movie' },
+        { id: 'c4', title: 'John Wick', trailer: 'https://interactive-examples.mdn.mozilla.net/media/cc0-videos/bee.webm', image: 'images/johnwick.jpeg', rating: 7.5, description: 'Action-comedy thriller.', type: 'movie' },
+        { id: 'c5', title: 'Iratta', trailer: 'https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.webm', image: 'images/iratta.jpeg', rating: 87.7, description: 'Chess prodigy drama.', type: 'tv' }
       ],
        'kdrama': [
-        { id: 'k1', title: 'Ballerina', trailer: 'https://interactive-examples.mdn.mozilla.net/media/cc0-videos/river.webm', image: 'ballerina.jpeg', rating: 7.3, description: 'Survival game drama.', type: 'tv' },
-        { id: 'k2', title: 'The Housemaid', trailer: 'https://interactive-examples.mdn.mozilla.net/media/cc0-videos/earth.webm', image: 'housemaid.jpeg', rating: 6.5, description: 'Robbery thriller.', type: 'tv' },
-        { id: 'k3', title: 'The Roundup', trailer: 'https://interactive-examples.mdn.mozilla.net/media/cc0-videos/tiger.webm', image: 'roundup.jpeg', rating: 7.0, description: 'Zombie apocalypse heist.', type: 'movie' },
-        { id: 'k4', title: 'Unlocked', trailer: 'https://interactive-examples.mdn.mozilla.net/media/cc0-videos/bee.webm', image: 'unlocked.jpeg', rating: 6.4, description: 'Action-comedy thriller.', type: 'movie' },
-        { id: 'k5', title: 'Tunnel', trailer: 'https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.webm', image: 'tunnel.jpeg', rating: 6.8, description: 'Chess prodigy drama.', type: 'tv' }
+        { id: 'k1', title: 'Ballerina', trailer: 'https://interactive-examples.mdn.mozilla.net/media/cc0-videos/river.webm', image: 'images/ballerina.jpeg', rating: 7.3, description: 'Survival game drama.', type: 'tv' },
+        { id: 'k2', title: 'The Housemaid', trailer: 'https://interactive-examples.mdn.mozilla.net/media/cc0-videos/earth.webm', image: 'images/housemaid.jpeg', rating: 6.5, description: 'Robbery thriller.', type: 'tv' },
+        { id: 'k3', title: 'The Roundup', trailer: 'https://interactive-examples.mdn.mozilla.net/media/cc0-videos/tiger.webm', image: 'images/roundup.jpeg', rating: 7.0, description: 'Zombie apocalypse heist.', type: 'movie' },
+        { id: 'k4', title: 'Unlocked', trailer: 'https://interactive-examples.mdn.mozilla.net/media/cc0-videos/bee.webm', image: 'images/unlocked.jpeg', rating: 6.4, description: 'Action-comedy thriller.', type: 'movie' },
+        { id: 'k5', title: 'Tunnel', trailer: 'https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.webm', image: 'images/tunnel.jpeg', rating: 6.8, description: 'Chess prodigy drama.', type: 'tv' }
       ],
         'action': [
-        { id: 'a1', title: 'Jurassic World Rebirth', trailer: 'Jurassic.mp4', image: 'jurassic.jpeg', rating: 8.5, description: 'Survival game drama.', type: 'tv' },
-        { id: 'a2', title: 'Predator', trailer: 'https://interactive-examples.mdn.mozilla.net/media/cc0-videos/earth.webm', image: 'predator.jpeg', rating: 7.8, description: 'Robbery thriller.', type: 'tv' },
-        { id: 'a3', title: 'Extraction', trailer: 'https://interactive-examples.mdn.mozilla.net/media/cc0-videos/tiger.webm', image: 'extraction.jpeg', rating: 6.8, description: 'Zombie apocalypse heist.', type: 'movie' },
-        { id: 'a4', title: 'Oblivion', trailer: 'https://interactive-examples.mdn.mozilla.net/media/cc0-videos/bee.webm', image: 'oblivion.jpeg', rating: 7.0, description: 'Action-comedy thriller.', type: 'movie' },
-        { id: 'a5', title: 'F1', trailer: 'https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.webm', image: 'f1.jpeg', rating: 8.0, description: 'Chess prodigy drama.', type: 'tv' }
+        { id: 'a1', title: 'Jurassic World Rebirth', trailer: 'Jurassic.mp4', image: 'images/jurassic.jpeg', rating: 8.5, description: 'Survival game drama.', type: 'tv' },
+        { id: 'a2', title: 'Predator', trailer: 'https://interactive-examples.mdn.mozilla.net/media/cc0-videos/earth.webm', image: 'images/predator.jpeg', rating: 7.8, description: 'Robbery thriller.', type: 'tv' },
+        { id: 'a3', title: 'Extraction', trailer: 'https://interactive-examples.mdn.mozilla.net/media/cc0-videos/tiger.webm', image: 'images/extraction.jpeg', rating: 6.8, description: 'Zombie apocalypse heist.', type: 'movie' },
+        { id: 'a4', title: 'Oblivion', trailer: 'https://interactive-examples.mdn.mozilla.net/media/cc0-videos/bee.webm', image: 'images/oblivion.jpeg', rating: 7.0, description: 'Action-comedy thriller.', type: 'movie' },
+        { id: 'a5', title: 'F1', trailer: 'https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.webm', image: 'images/f1.jpeg', rating: 8.0, description: 'Chess prodigy drama.', type: 'tv' }
       ],
       'my-list': []
     };
@@ -2837,4 +2837,5 @@ function playLocalTrailerInBanner(item) {
 </script>
 </body>
 </html>
+
 
